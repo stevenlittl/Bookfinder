@@ -22,7 +22,7 @@
         //Create Request for all the books
         $SELECT = "SELECT * FROM books";
         $result = $conn->query($SELECT);
-
+        
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $name = test_input($_POST["name"]);
             require_once("sqlconfig.php");

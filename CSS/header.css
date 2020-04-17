@@ -26,9 +26,6 @@ header li:hover{
     /* Make button darker when the user hovers on it. */
     background-color: hsl(360, 72%, 38%);
 }
-header a {
-    color: hsl(43, 13%, 90%);
-}
 
 header img {
     /* Set the logo size */
@@ -39,3 +36,13 @@ header h1 {
     color: hsl(43, 13%, 90%);
     font-size: 30px;
 }
+
+a {
+    text-decoration: none;
+    color: hsl(43, 13%, 90%)
+}
+
+a:hover {
+    text-decoration: none;
+    color: hsl(43, 13%, 90%)
+}   

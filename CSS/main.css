@@ -20,7 +20,7 @@ body {
 }
 
 .main div.book {
-    background-color: hsl(40, 15%, 80%);
+    background-color: hsl(43, 13%, 90%);
     margin: 10px;
     width: 300px;
     padding: 10px;
@@ -39,4 +39,10 @@ body {
 
 a {
     text-decoration: none;
+    color: hsl(43, 13%, 90%)
 }
+
+a:hover {
+    text-decoration: none;
+    color: hsl(43, 13%, 90%)
+}   
