@@ -54,7 +54,7 @@
             <label for="name">Title</label>
             <input required class="form-control" type="text" id="name" name="name">
             <label for="name">Description</label>
-            <textarea class="form-control" type="text" name="description"></textarea>
+            <textarea class="form-control" name="description"></textarea>
             <label for="name">ISBN</label>
             <input class="form-control" type="text" id="isbn" name="isbn">
             <label for="name">Year Published</label>
